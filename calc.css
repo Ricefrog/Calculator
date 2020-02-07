@@ -1,0 +1,114 @@
+html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    position: absolute;
+    margin: 0;
+    min-width: 100%;
+    min-height: 100%;
+    /* top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;  */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    
+  
+    background: -webkit-linear-gradient(to bottom right, #556270, #ff6b6b); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom right, #556270, #ff6b6b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-repeat: no-repeat;
+}
+
+.machine {
+    position: absolute;
+    top: 15%;
+    right: 35%;
+    width: 30%;
+    height: 70%;
+    margin: auto;
+    margin-top: 0;
+    margin-bottom: 10%;
+    font-family: 'Iceland', cursive;
+    box-shadow: 6px 6px 5px 1px rgba(0, 0, 163, .2);
+}
+
+.screen {
+    text-align: right;
+    font-size: 3em;
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 20%;
+    padding-top: 3%;
+    color: white;
+    opacity: .5;
+    text-shadow: 2px 2px 0px #f5c600,
+    4px 4px 0px #d8460b,
+    6px 6px 0px #007291;
+}
+
+.screen span {
+    width: 2%;
+    display: inline-block;
+}
+
+.ui-bar {
+    background: #6eebe2;
+    width: 100%;
+    height: 5%;
+}
+
+.button-box {
+    font-size: 2em;
+    background-color: #2d2d2d;
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    transition: .5s;
+}
+
+
+.button-main {
+    text-align: center;
+    width: 25%;
+    height: 10%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    
+    transition: .5s;
+}
+
+
+.button-box .right {
+    margin-left: auto;
+}
+
+.operator {
+    color: #FF4136;
+}
+
+.operator:hover {
+    text-shadow: 2px 2px 0px #f5c600,
+    4px 4px 0px #d8460b,
+    6px 6px 0px #007291;
+}
+
+.digit:hover {
+    color: #01FF70;
+    background-color: grey;
+}
+
+.clear {
+   
+}
+
+.clear:hover {
+    text-shadow: 2px 2px 0px #f5c600,
+    4px 4px 0px #d8460b,
+    6px 6px 0px #007291;
+}
