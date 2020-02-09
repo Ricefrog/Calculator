@@ -5,10 +5,6 @@ const divide = (a, b) => a / b;
 let divideByZero = false;
 let tooManyOperators = false;
 
-let numOfPlus = 0;
-let numOfMinus = 0;
-let numOfDiv = 0;
-let numOfMult = 0;
 let displayString;
 
 const screen = document.querySelector(".screen");
